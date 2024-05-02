@@ -6,13 +6,13 @@
 
 :root {
   font-size: 62.5%;
+  --bg-color: rgb(45, 45, 46);
+  --border-color: #eceff2;
   --font-family-primary: "Inter", sans-serif;
   --font-family-secondary: "Open Sans", sans-serif;
-  --bg-color: rgb(45, 45, 46);
   --font-color-primary: #000;
   --font-color-secondary: #7d7987;
   --font-color-span: #f90;
-  --border-color: #eceff2;
 }
 
 body {
@@ -65,7 +65,7 @@ h1 span {
   color: var(--font-color-span);
 }
 
-#text-box {
+main {
   width: 59.2rem;
 }
 
