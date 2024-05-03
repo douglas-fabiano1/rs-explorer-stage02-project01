@@ -17,6 +17,7 @@
 
 body {
   background: var(--bg-color);
+  font-family: var(--font-family-secondary);
   text-align: center;
 }
 
@@ -70,12 +71,10 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   gap: 3.2rem;
 }
 
 p {
-  font-family: var(--font-family-secondary);
   color: var(--font-color-secondary);
 }
 
@@ -92,7 +91,6 @@ footer {
 
 footer a {
   color: var(--font-color-span);
-  font-family: var(--font-family-secondary);
 }
 
 a + a {
@@ -100,7 +98,7 @@ a + a {
 }
 
 .balls {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
 }
